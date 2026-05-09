@@ -34,7 +34,8 @@ Empower learners to acquire vocabulary naturally while browsing the web through 
 | **Audio Pronunciation** | Google Text-to-Speech for word audio playback | Live |
 | **Keyboard Shortcuts** | Configurable hotkey mode (alternative to mouseup selection) | Live |
 | **Study Reminders** | Configurable notification intervals via Chrome alarms | Live |
-| **Offline-First** | All data in `chrome.storage.local`; no cloud sync required | Live |
+| **Offline-First** | All data in `chrome.storage.local`; settings + API keys sync via `chrome.storage.sync` | Live |
+| **Cross-Device Settings Sync** | Settings + LLM API keys persist across signed-in Chrome devices (issue #5) | Live |
 | **Highlight & Persist** | Right-click → highlight; persisted by page URL + XPath | Live |
 | **Dark Mode** | Theme toggle in settings & UI (Tailwind-based) | Live |
 

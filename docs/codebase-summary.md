@@ -1,7 +1,7 @@
 # Codebase Summary
 
 **Vocabulary Builder Chrome Extension v1.0.5**  
-**Total Source:** ~11.7k LOC across 95 source files
+**Total Source:** ~11.7k LOC across 97 source files
 
 ---
 
@@ -96,10 +96,12 @@ vocabulary-extension/src/
 │   │   └── use-retranslate.ts           Re-trigger with new lang/provider
 │   └── sidepanel.css                    Sidepanel-specific styles
 │
-├── shared/ (2,664 LOC across 17 files)  Stores, APIs, translation, SM-2, components
+├── shared/ (2,664 LOC across 19 files)  Stores, APIs, translation, SM-2, components
 │   ├── store.ts                         Zustand: useVocabularyStore, useStatsStore,
-│   │                                     useSettingsStore, useUIStore (persisted via chromeStorage)
-│   ├── chrome-storage-adapter.ts        Zustand middleware ↔ chrome.storage.local
+│   │                                     useSettingsStore, useUIStore (persisted via adapters)
+│   ├── chrome-storage-adapter.ts        Zustand middleware ↔ chrome.storage.local (vocabulary/stats/ui)
+│   ├── chrome-sync-storage-adapter.ts   Zustand middleware ↔ chrome.storage.sync (settings + API keys)
+│   ├── settings-storage-access.ts       Shared helpers: getSettingsRaw, getSettings, setSettingsRecord, patchSettings
 │   ├── dictionary-api.ts                Free Dictionary API lookup (no auth)
 │   ├── free-translation-api.ts          MyMemory free translation
 │   ├── translation-service.ts (test)    Orchestrator: free vs LLM route decision
@@ -134,7 +136,7 @@ vocabulary-extension/src/
 | Area | Files | LOC | Role |
 |------|-------|-----|------|
 | content/modules | 17 | 2,958 | Tooltip, menu, highlight, keyboard handling |
-| shared | 17 | 2,664 | Stores, translation, SM-2, notification |
+| shared | 19 | 2,664 | Stores, translation, SM-2, notification, sync adapters |
 | content/* | 2 | 1,107 | Main content script + styles |
 | options/components | 8 | 892 | Settings UI |
 | sidepanel/components | 7 | 705 | PDF lookup UI |
@@ -168,9 +170,10 @@ vocabulary-extension/src/
 
 ## Key Integration Points
 
-- **Zustand Store** (`shared/store.ts`): Four stores (Vocabulary, Stats, Settings, UI) persisted via chrome.storage.local
-- **Chrome Storage Adapter** (`shared/chrome-storage-adapter.ts`): Middleware connecting Zustand ↔ chrome.storage
-- **Settings Sync** (`chrome.storage.onChanged`): Content script listens for cross-tab option changes
+- **Zustand Store** (`shared/store.ts`): Four stores. Vocabulary, Stats, UI → `chrome.storage.local`; Settings → `chrome.storage.sync` (issue #5: cross-device sync)
+- **Storage Adapters** (`shared/chrome-storage-adapter.ts`, `shared/chrome-sync-storage-adapter.ts`): Zustand persistence middlewares; sync adapter has migrate-on-read fallback to legacy local + quota-exceeded fallback
+- **Settings Access Helper** (`shared/settings-storage-access.ts`): `getSettings`, `getSettingsRaw`, `patchSettings` — DRY entry point for non-Zustand callers (notifications, content modules, sidepanel)
+- **Settings Sync** (`chrome.storage.onChanged`): Listeners filter `areaName === 'sync'` for settings, `'local'` for vocab/stats; same listener delivers cross-tab AND cross-device updates
 - **Translation Pipeline** (`shared/translation-service.ts`): Routes free vs LLM based on `useLLMTranslation` setting
 - **SM-2 Entry** (`shared/spaced-repetition.ts`): Used in popup/study rating-buttons and flashcard intervals
 
@@ -212,7 +215,7 @@ vocabulary-extension/src/
 
 ## Open Questions
 
-1. **Firebase dependency** — No imports found; verify if dead code or planned cloud-sync feature
+1. **Firebase dependency** — No imports found; dead code or planned vocabulary cloud-sync? (Settings sync resolved via chrome.storage.sync)
 2. **design-tokens.css** — Not scanned; token contract / usage patterns unknown
-3. **vitest.setup.ts** — Chrome API mocking extent not mapped
+3. **vitest.setup.ts** — Chrome API mocking extent not mapped; now includes separate chrome.storage.sync mock area
 4. **release-manifest.json** — Root vs submodule versions; clarify relationship

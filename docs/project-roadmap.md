@@ -35,23 +35,34 @@ Core extension with all essential features for vocabulary learning:
 
 **Status:** Backlog / Design phase
 
-### Firebase Integration Audit (Blocker)
+### Settings Sync (DELIVERED — issue #5)
 
-**Open question:** Firebase is listed in `package.json` (v10.14.1) but no imports found in codebase. Clarify:
-- Is it dead code from initial scaffolding?
-- Is cloud sync a planned Phase 2 feature?
-- If planned, finalize architecture: user accounts, auth flow, data encryption, offline-first sync strategy.
+Cross-device settings + LLM API key sync ships via `chrome.storage.sync`
+(no backend, no auth). Migrate-on-read upgrades v1.0.5 users transparently.
+See [system-architecture.md](./system-architecture.md#chromestoragesync-cross-device--issue-5).
 
-**Acceptance criteria:**
-- [ ] Firebase dependency either removed (if unused) or fully integrated (if planned)
-- [ ] Design doc for cloud sync architecture (if planned)
+### Vocabulary Cloud Sync (Still Open)
+
+Vocabulary words, flashcards, stats remain device-local. Sizes exceed
+`chrome.storage.sync` quotas (~10MB) so cloud backend still needed if pursued.
+
+### Firebase Integration Audit (Open)
+
+Firebase listed in `package.json` (v10.14.1) but no imports found in codebase.
+Issue #5 resolved settings sync without Firebase, so the decision is now:
+- Remove dead dependency, **or**
+- Keep for future vocabulary cloud sync.
+
+**Acceptance criteria (vocabulary cloud sync, if pursued):**
+- [ ] Design doc for cloud sync architecture
 - [ ] User auth flow (Google/Email sign-in)
 - [ ] Data encryption at rest (client-side)
 - [ ] Conflict resolution for offline edits
+- [ ] Define if Firebase or alternative
 
 ### High-Level Goals
 
-If cloud sync approved, v2.0.0 will enable:
+If vocabulary cloud sync approved, v2.0.0 will enable:
 - Cross-device vocabulary synchronization
 - User accounts with sign-in
 - Backup & restore

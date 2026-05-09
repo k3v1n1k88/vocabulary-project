@@ -118,7 +118,7 @@ const handler = async (message: Message, sender) => {
 
 ### 3. Shared/State Layer (Zustand + Chrome Storage)
 
-Four domain stores, persisted via `chromeStorage` adapter to `chrome.storage.local`:
+Four domain stores. Vocabulary, stats, UI persist to `chrome.storage.local` via `chromeStorage` adapter; settings persist to `chrome.storage.sync` via `chromeSyncStorage` adapter (issue #5: cross-device sync):
 
 #### **useVocabularyStore**
 ```typescript
@@ -164,9 +164,9 @@ Four domain stores, persisted via `chromeStorage` adapter to `chrome.storage.loc
 }
 ```
 
-**Persistence:** `chromeStorage` middleware intercepts store updates and persists to `chrome.storage.local`. On startup, restores from storage.
+**Persistence:** Zustand `persist` middleware intercepts store updates. Vocabulary/stats/UI route through `chromeStorage` (→ `chrome.storage.local`); settings route through `chromeSyncStorage` (→ `chrome.storage.sync`, with one-time legacy local fallback for v1.0.5 migrations). On startup, each store rehydrates from its respective area.
 
-**Cross-Tab Sync:** Settings changes trigger `chrome.storage.onChanged` listener in content script; all tabs re-read settings automatically.
+**Cross-Tab + Cross-Device Sync:** Settings changes fire `chrome.storage.onChanged` with `areaName: 'sync'`; listeners filter on this and re-cache. Same listener delivers cross-device updates from other Chrome installs signed into the same Google account, typically within seconds.
 
 ### 4. Business Logic Layer (Services)
 
@@ -372,40 +372,73 @@ SidePanel
 
 ## Storage Schema
 
-### chrome.storage.local
+### chrome.storage.sync (cross-device — issue #5)
+
+User config rides Google's Chrome sync infrastructure. Settings + LLM API keys
+sync across the user's signed-in Chrome installs. Quotas: 8KB per item, 100KB
+total, 512 items — settings JSON is well under these limits. Persisted via
+Zustand `chromeSyncStorage` adapter.
+
+```javascript
+{
+  "settings-storage": {
+    state: {
+      settings: {
+        targetLanguage: "vi",
+        sourceLanguage: "en",
+        useLLMTranslation: true,
+        llmProvider: "openai",
+        dailyGoal: 20,
+        notificationsEnabled: true,
+        reminderInterval: 60,
+        studyReminderSnoozeUntil: 1730000000000,
+        theme: "light",
+        autoPlayAudio: true,
+        showVietnamese: true,
+        lookupShortcutEnabled: false,
+        lookupShortcut: "Ctrl+Shift+D",
+        highlightColor: "#ffeb3b"
+      }
+    }
+  },
+  // Per-provider API keys (one key per LLM provider).
+  "openai-api-key": "sk-...",
+  "gemini-api-key": "...",
+  "grok-api-key": "..."
+}
+```
+
+**Migrate-on-read:** First launch of a v1.0.5 install reads from
+`chrome.storage.local` if `settings-storage` is absent in sync, then copies
+the value to sync (best-effort). Same pattern for legacy per-provider API keys.
+
+### chrome.storage.local (device-local)
+
+Vocabulary, stats, highlights, and UI state remain device-local. Their sizes
+exceed `chrome.storage.sync` quotas (vocabulary alone can hit several MB).
 
 Persisted via Zustand `chromeStorage` adapter:
 
 ```javascript
 {
-  "vocabulary-store": {
+  "vocabulary-storage": {
     words: [
       { id, text, definition, phonetic, partOfSpeech, translation, context, savedAt },
       ...
     ],
     flashcards: [[wordId, { ef: 2.5, reps: 3, interval: 7, nextReview: "2026-05-15T10:00:00Z" }], ...]
   },
-  "stats-store": {
+  "stats-storage": {
     xp: 1250,
     streak: 8,
     level: 5,
     dailyGoal: 20,
     lastStudyDate: "2026-05-08T14:30:00Z"
   },
-  "settings-store": {
-    targetLanguage: "vi",
-    useLLMTranslation: true,
-    llmProvider: "openai",
-    llmModel: "gpt-4",
-    apiKey: "[encrypted by Chrome]",
-    dailyReminderTime: "08:00",
-    reminderEnabled: true,
-    // ... more settings
-  },
   "ui-store": {
     activeTab: "study"
   },
-  "highlights": {
+  "text-highlights": {
     "https://example.com/article": [
       { xpath: "/html/body/p[2]/text()[3]", offset: 5, length: 4, color: "#FFF59D" },
       ...
@@ -420,9 +453,17 @@ Used for PDF lookups (content script can't inject into native PDF viewer, so BG 
 
 ```javascript
 {
-  "pdf-lookup-result": { word: Word, timestamp: Date }
+  "pdfLookupResult": { word: Word, timestamp: Date },
+  "pdfLookupHistory": [...]
 }
 ```
+
+### onChanged listeners
+
+`chrome.storage.onChanged.addListener((changes, areaName) => ...)` fires for
+all areas. Settings consumers MUST filter `areaName === 'sync'`; vocabulary /
+stats / UI consumers filter `areaName === 'local'`. Forgetting the filter
+causes duplicate parses or accidental cross-area pickups.
 
 ---
 
@@ -430,7 +471,7 @@ Used for PDF lookups (content script can't inject into native PDF viewer, so BG 
 
 - **Content Security Policy (CSP):** Defined in manifest.ts; blocks inline scripts
 - **XSS Protection:** User-generated content (word text) HTML-escaped before DOM insertion via `htmlEscape` util
-- **API Key Storage:** Stored in `chrome.storage.local`; Chrome handles encryption at rest
+- **API Key Storage:** Stored in `chrome.storage.sync` (issue #5) — encrypted in transit and at rest by Google's Chrome sync infrastructure (same model as bookmarks/passwords sync). Migrate-on-read upgrades legacy `chrome.storage.local` installs.
 - **Host Permissions:** Manifest specifies allowed external APIs (MyMemory, Dictionary, OpenAI, Gemini, Grok, Google Translate)
 - **No Background Page:** Service worker only (Chrome MV3 requirement); no persistent script injection
 
@@ -447,6 +488,6 @@ Used for PDF lookups (content script can't inject into native PDF viewer, so BG 
 
 ## Open Questions / Clarifications Needed
 
-1. **Firebase dependency** — Confirm if dead code or planned cloud-sync feature; if cloud sync planned, architecture will change significantly
+1. **Firebase dependency** — Settings/config sync is now solved via `chrome.storage.sync` (issue #5). Firebase still listed in `package.json` but unused; vocabulary cloud sync (Phase 2) is still TBD — if pursued, Firebase remains a candidate.
 2. **PDF URL detection** — How to reliably detect PDF context; current approach uses `isPdfUrl` heuristic
 3. **Highlight restoration on dynamic DOM** — XPath resolution breaks on single-page app DOM mutations; consider MutationObserver + ResizeObserver if SPA support needed

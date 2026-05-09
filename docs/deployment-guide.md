@@ -39,6 +39,11 @@ npm run build:release
 - Sourcemaps disabled for release
 - Code size reduced ~30–40%
 
+**Release safety check:** `npm run build:release` automatically runs `verify-release-manifest.mjs`, which:
+- Aborts build if `dist/manifest.json` contains a `key` field
+- Prevents accidental publishing of dev keys to Chrome Web Store
+- CWS independently manages the extension's public key during submission
+
 ---
 
 ## Local Development & Testing
@@ -64,6 +69,20 @@ npm run dev
 
 **Output:** Starts Vite dev server; watches for file changes and rebuilds incrementally. Outputs to `dist/`.
 
+### Development Extension Key Setup
+
+For cross-device sync testing of unpacked dev installs (which otherwise receive random extension IDs per machine), the manifest injects a fixed public `key` field in non-release builds.
+
+**Initial setup:**
+```bash
+cd vocabulary-extension
+npm run dev-key:generate
+```
+
+Generates `.pem` private key (gitignored) and prints the public key to console. Commit the public key output to `src/manifest.ts` `DEV_EXTENSION_KEY`.
+
+**All team members & dev machines then share the same unpacked extension ID** for testing settings sync across devices.
+
 ### Load Extension in Chrome
 
 1. Open Chrome
@@ -72,6 +91,7 @@ npm run dev
 4. Click **Load unpacked**
 5. Select the `dist` folder from this project
 6. Extension appears in toolbar; pin it for easy access
+7. Verify extension ID matches team dev key (should be consistent across machines if key setup done)
 
 ### Live Reload
 

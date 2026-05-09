@@ -86,7 +86,7 @@ Current codebase status:
 ### Security Standards
 
 - **No sensitive data in logs:** Never log API keys, user tokens, or plaintext passwords
-- **Storage:** API keys stored in `chrome.storage.local` (user-accessible but encrypted by Chrome at rest)
+- **Storage:** API keys stored in `chrome.storage.sync` (issue #5: cross-device sync). Encrypted in transit and at rest by Google's Chrome sync infrastructure — same security posture as bookmarks/passwords sync. Per-provider keys (`openai-api-key`, `gemini-api-key`, etc.) plus the `settings-storage` envelope.
 - **Content Security Policy (CSP):** Defined in manifest.ts; inline scripts forbidden
 - **XSS protection:** HTML escaping via `content/utils/html-escape.ts` for tooltip content
 - **CORS:** All external API calls use host_permissions in manifest.ts
@@ -109,14 +109,25 @@ Current codebase status:
 - **Props spread:** Avoid `{...props}` unless explicitly delegating DOM attributes
 - **Example:** `flash-card.tsx` owns flip state; `rating-buttons.tsx` owns SM-2 quality selection
 
-### Zustand Store
+### Zustand Store & Storage Access
 
 - **One store per domain:** `useVocabularyStore`, `useStatsStore`, `useSettingsStore`, `useUIStore`
 - **Slice pattern:** Organize actions by domain (not required but helpful for large stores)
-- **Middleware:** Use `chromeStorage` adapter for persistence; avoid manual storage calls in components
+- **Middleware:** Use appropriate adapter for persistence
+  - `chromeStorage` adapter: vocabulary/stats/UI state → `chrome.storage.local`
+  - `chromeSyncStorage` adapter: settings + LLM API keys → `chrome.storage.sync`
 - **Selectors:** Use selectors to minimize re-renders
   ```typescript
   const wordCount = useVocabularyStore((s) => s.words.length);
+  ```
+- **Settings access pattern:** For non-Zustand callers (content script, service worker), use `settings-storage-access` helpers
+  ```typescript
+  // Prefer helpers for settings
+  import { getSettings, setSettingsRecord } from '@/shared/settings-storage-access';
+  const settings = await getSettings();  // Reads from sync with local fallback
+  
+  // Direct API only for vocabulary/stats/highlights
+  const { data } = await chrome.storage.local.get('vocabulary-storage');
   ```
 
 ### Message Handlers
@@ -290,5 +301,5 @@ Examples:
 ## Open Questions / TODO
 
 1. **design-tokens.css mapping** — Verify token contract and Tailwind integration
-2. **vitest-chrome mocking** — Full extent of chrome API stubs unknown; review `vitest.setup.ts`
-3. **Firebase dependency audit** — Confirm if dead code or planned feature
+2. **vitest-chrome mocking** — Full extent of chrome API stubs unknown; review `vitest.setup.ts` (note: includes separate chrome.storage.sync mock area as of issue #5)
+3. **Firebase dependency audit** — Settings sync resolved; clarify if Firebase needed for vocabulary cloud sync (Phase 2)

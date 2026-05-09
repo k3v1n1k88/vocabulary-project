@@ -105,7 +105,7 @@ All documentation is in `./docs/`:
 | **Highlight & Persist** | Live | Right-click → highlight saved per page URL |
 | **Dark Mode** | Live | System preference + user toggle |
 | **Data Export/Import** | Live | JSON backup & restore |
-| **Offline-First** | Live | All data in chrome.storage.local |
+| **Cross-Device Settings Sync** | Live | Settings + API keys sync via chrome.storage.sync; vocabulary/stats remain local |
 
 ---
 
