@@ -1,0 +1,3 @@
+[submodule "vocabulary-extension"]
+	path = vocabulary-extension
+	url = https://github.com/k3v1n1k88/vocabulary-extension
