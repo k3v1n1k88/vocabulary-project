@@ -70,18 +70,9 @@ __pycache__
 prompt.md
 ck.md
 
-# Generated runtime layout for release/install smoke tests
-/.claude/
-# But track repo-level rules that Claude Code reads
-!/.claude/rules/
-
-# Local-only state inside tracked claude source
-claude/agent-memory/
-claude/hooks/.logs/
-claude/session-state/latest.md
-claude/session-state/archive/
-claude/settings.bak.json
-claude/skills/ai-multimodal/assets/demo-*.claude/session-state/*.tmp
+# .claude/ is curated via .claude/.gitignore (allowlist approach)
+# so Claude routines on the remote can use shared skills, rules, hooks, agents.
+# Secrets and local state are denied inside that file.
 
 # Gemini CLI settings (symlink to staged .claude/.mcp.json)
 .gemini/settings.json

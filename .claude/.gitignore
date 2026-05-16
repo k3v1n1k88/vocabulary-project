@@ -1,0 +1,63 @@
+# .claude/.gitignore — allowlist for git remote (used by Claude routines)
+# Strategy: ignore everything by default, then opt-in what routines need,
+# then re-deny dependency/cache bloat inside allowed dirs.
+
+# ===== Ignore everything by default =====
+/*
+/.*
+
+# ===== Allow top-level config files =====
+!.gitignore
+!.ck.json
+!.ckignore
+!.env.example
+!.mcp.json.example
+!settings.json
+!statusline.cjs
+
+# ===== Allow directories routines depend on =====
+!agents/
+!rules/
+!hooks/
+!skills/
+!output-styles/
+!schemas/
+!scripts/
+
+# ===== Hard-deny secrets and local-only state =====
+.env
+.mcp.json
+settings.local.json
+metadata.json
+scheduled_tasks.lock
+agent-memory/
+session-state/
+command-archive/
+
+# ===== Deny dependency/cache bloat inside allowed dirs =====
+**/node_modules/
+**/.venv/
+**/venv/
+**/__pycache__/
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+**/dist/
+**/build/
+**/.cache/
+**/.next/
+**/coverage/
+**/.nyc_output/
+
+# ===== Deny common artifacts =====
+*.pyc
+*.pyo
+*.log
+*.tsbuildinfo
+.DS_Store
+
+# ===== Skill-specific large assets (opt-out) =====
+skills/ai-multimodal/assets/demo-*
+skills/**/assets/*.mp4
+skills/**/assets/*.mov
+skills/**/assets/*.zip

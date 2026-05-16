@@ -1,0 +1,666 @@
+{"ts":"2026-05-09T11:32:54.611Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":6,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T11:32:55.193Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T11:33:02.227Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":7,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T11:33:02.232Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/docs/code-standards.md\""}
+{"ts":"2026-05-09T11:33:06.525Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":7,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T11:33:06.526Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/docs/code-standards.md\""}
+{"ts":"2026-05-09T11:33:12.410Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":7,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T11:33:12.419Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project\""}
+{"ts":"2026-05-09T11:33:13.127Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T11:35:42.134Z","hook":"usage-quota-cache-refresh","event":"UserPromptSubmit","tool":"","target":"","note":"runtime-override","dur":19,"status":"warn","exit":0,"error":""}
+{"ts":"2026-05-09T11:35:42.426Z","hook":"dev-rules-reminder","event":"UserPromptSubmit","tool":"","target":"","note":"context-injected","dur":241,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T11:35:47.604Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension/README.md\""}
+{"ts":"2026-05-09T11:35:47.616Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":8,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T11:36:01.062Z","hook":"privacy-block","event":"PreToolUse","tool":"Edit","target":"","note":"","dur":6,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T11:36:01.072Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension/README.md\""}
+{"ts":"2026-05-09T11:36:01.569Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Edit","target":"","note":"non-plan-file","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T11:36:01.573Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Edit","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T11:36:03.315Z","hook":"privacy-block","event":"PreToolUse","tool":"Edit","target":"","note":"","dur":8,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T11:36:03.326Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension/README.md\""}
+{"ts":"2026-05-09T11:36:03.713Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Edit","target":"","note":"non-plan-file","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T11:36:03.720Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Edit","target":"","note":"throttled","dur":2,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T11:36:06.866Z","hook":"privacy-block","event":"PreToolUse","tool":"Edit","target":"","note":"","dur":6,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T11:36:06.870Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension/README.md\""}
+{"ts":"2026-05-09T11:36:07.175Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Edit","target":"","note":"non-plan-file","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T11:36:07.180Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Edit","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T11:36:14.458Z","hook":"privacy-block","event":"PreToolUse","tool":"Edit","target":"","note":"","dur":7,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T11:36:14.473Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension/README.md\""}
+{"ts":"2026-05-09T11:36:14.797Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Edit","target":"","note":"throttled","dur":2,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T11:36:14.797Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Edit","target":"","note":"non-plan-file","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T11:36:47.490Z","hook":"dev-rules-reminder","event":"UserPromptSubmit","tool":"","target":"","note":"recently-injected","dur":25,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T11:36:47.491Z","hook":"usage-quota-cache-refresh","event":"UserPromptSubmit","tool":"","target":"","note":"runtime-override","dur":24,"status":"warn","exit":0,"error":""}
+{"ts":"2026-05-09T11:36:52.338Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":6,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T11:36:52.343Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/.github/workflows\""}
+{"ts":"2026-05-09T11:36:52.638Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":8,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T11:36:52.644Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension/release-manifest.json\""}
+{"ts":"2026-05-09T11:36:56.791Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":6,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T11:36:56.801Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension/.github/workflows/release.yml\""}
+{"ts":"2026-05-09T11:36:57.550Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":7,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T11:36:57.555Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension/release-manifest.json\""}
+{"ts":"2026-05-09T11:36:58.096Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T11:38:26.222Z","hook":"usage-quota-cache-refresh","event":"UserPromptSubmit","tool":"","target":"","note":"runtime-override","dur":23,"status":"warn","exit":0,"error":""}
+{"ts":"2026-05-09T11:38:26.224Z","hook":"dev-rules-reminder","event":"UserPromptSubmit","tool":"","target":"","note":"recently-injected","dur":25,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T11:39:12.347Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":7,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T11:39:12.351Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project\""}
+{"ts":"2026-05-09T11:39:18.456Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T11:39:35.693Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":5,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T11:39:35.697Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project\""}
+{"ts":"2026-05-09T11:39:36.318Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T11:40:14.787Z","hook":"subagent-init","event":"SubagentStart","tool":"","target":"git-manager","note":"context-injected","dur":204,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T11:40:16.961Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":10,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T11:40:16.967Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project\""}
+{"ts":"2026-05-09T11:40:18.643Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":6,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T11:40:18.656Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project\""}
+{"ts":"2026-05-09T11:40:19.196Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T11:40:20.838Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":9,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T11:40:20.845Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension\""}
+{"ts":"2026-05-09T11:40:21.370Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T11:40:24.046Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension\""}
+{"ts":"2026-05-09T11:40:24.051Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":6,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T11:40:24.699Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T11:40:27.399Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":5,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T11:40:27.402Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension\""}
+{"ts":"2026-05-09T11:40:27.941Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T11:40:31.556Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":7,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T11:40:31.561Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension\""}
+{"ts":"2026-05-09T11:41:49.303Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":6,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T11:41:49.305Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension\""}
+{"ts":"2026-05-09T11:42:02.449Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T11:42:04.947Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":7,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T11:42:04.956Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension\""}
+{"ts":"2026-05-09T11:42:05.577Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T11:42:07.929Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":7,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T11:42:07.938Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension\""}
+{"ts":"2026-05-09T11:42:08.451Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T11:42:16.063Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":7,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T11:42:16.096Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension\""}
+{"ts":"2026-05-09T11:42:29.525Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T11:42:31.447Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":6,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T11:42:31.461Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension\""}
+{"ts":"2026-05-09T11:42:32.115Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T11:42:35.166Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":7,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T11:42:35.174Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension\""}
+{"ts":"2026-05-09T11:42:45.425Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T11:42:47.280Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":7,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T11:42:47.283Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension\""}
+{"ts":"2026-05-09T11:42:51.556Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T11:42:53.376Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":5,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T11:42:53.382Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project\""}
+{"ts":"2026-05-09T11:42:53.985Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T11:42:55.861Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":7,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T11:42:55.875Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project\""}
+{"ts":"2026-05-09T11:42:56.402Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T11:42:58.336Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":7,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T11:42:58.344Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project\""}
+{"ts":"2026-05-09T11:42:58.918Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T11:43:00.847Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":6,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T11:43:00.858Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project\""}
+{"ts":"2026-05-09T11:43:01.522Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T11:43:03.285Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project\""}
+{"ts":"2026-05-09T11:43:03.288Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":6,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T11:43:03.819Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T11:43:06.686Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":6,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T11:43:06.696Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project\""}
+{"ts":"2026-05-09T11:43:07.265Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T11:43:08.833Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":4,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T11:43:08.845Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project\""}
+{"ts":"2026-05-09T11:43:11.528Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":5,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T11:43:11.535Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project\""}
+{"ts":"2026-05-09T11:43:12.044Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T11:43:13.705Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project\""}
+{"ts":"2026-05-09T11:43:13.707Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":7,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T11:43:14.221Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T11:43:16.423Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":8,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T11:43:16.425Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project\""}
+{"ts":"2026-05-09T11:43:16.951Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T11:43:18.768Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":7,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T11:43:18.785Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension\""}
+{"ts":"2026-05-09T11:43:19.348Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T11:43:21.094Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":8,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T11:43:21.105Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project\""}
+{"ts":"2026-05-09T11:43:21.655Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T11:45:06.317Z","hook":"usage-quota-cache-refresh","event":"UserPromptSubmit","tool":"","target":"","note":"runtime-override","dur":36,"status":"warn","exit":0,"error":""}
+{"ts":"2026-05-09T11:45:06.516Z","hook":"dev-rules-reminder","event":"UserPromptSubmit","tool":"","target":"","note":"context-injected","dur":235,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T11:45:42.761Z","hook":"subagent-init","event":"SubagentStart","tool":"","target":"git-manager","note":"context-injected","dur":178,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T11:45:48.050Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":6,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T11:45:48.057Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension\""}
+{"ts":"2026-05-09T11:45:51.111Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T11:51:46.453Z","hook":"usage-quota-cache-refresh","event":"UserPromptSubmit","tool":"","target":"","note":"runtime-override","dur":21,"status":"warn","exit":0,"error":""}
+{"ts":"2026-05-09T11:51:46.677Z","hook":"dev-rules-reminder","event":"UserPromptSubmit","tool":"","target":"","note":"context-injected","dur":245,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T11:54:18.156Z","hook":"subagent-init","event":"SubagentStart","tool":"","target":"git-manager","note":"context-injected","dur":189,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T11:54:20.349Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":7,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T11:54:20.355Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension\""}
+{"ts":"2026-05-09T11:54:22.376Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":8,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T11:54:22.383Z","hook":"scout-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":7,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T11:54:22.919Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T11:54:23.268Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":7,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T11:54:23.279Z","hook":"scout-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":6,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T11:54:23.768Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T11:54:25.834Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":6,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T11:54:25.841Z","hook":"scout-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":8,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T11:54:30.093Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":2,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T11:54:30.694Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":11,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T11:54:30.768Z","hook":"scout-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":13,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T11:54:31.758Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T11:54:32.128Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":9,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T11:54:32.136Z","hook":"scout-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":9,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T11:54:33.921Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":2,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T11:54:36.326Z","hook":"scout-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":7,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T11:54:36.327Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":6,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T11:54:46.795Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T11:54:47.128Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":5,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T11:54:47.136Z","hook":"scout-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":9,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T11:54:50.672Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T11:54:59.127Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":8,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T11:54:59.133Z","hook":"scout-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":13,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T11:55:02.374Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T11:55:04.164Z","hook":"scout-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":6,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T11:55:04.168Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":5,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T11:55:04.745Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T12:04:07.044Z","hook":"usage-quota-cache-refresh","event":"UserPromptSubmit","tool":"","target":"","note":"runtime-override","dur":31,"status":"warn","exit":0,"error":""}
+{"ts":"2026-05-09T12:04:07.264Z","hook":"dev-rules-reminder","event":"UserPromptSubmit","tool":"","target":"","note":"context-injected","dur":247,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T12:05:02.675Z","hook":"subagent-init","event":"SubagentStart","tool":"","target":"git-manager","note":"context-injected","dur":193,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T12:05:06.737Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":5,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T12:05:06.908Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension\""}
+{"ts":"2026-05-09T12:05:13.069Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":5,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T12:05:13.071Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension\""}
+{"ts":"2026-05-09T12:05:13.579Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T12:05:13.894Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":5,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T12:05:13.903Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension\""}
+{"ts":"2026-05-09T12:05:14.568Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T12:05:19.987Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":6,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T12:05:20.001Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension\""}
+{"ts":"2026-05-09T12:05:27.319Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T12:05:27.639Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":5,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T12:05:27.650Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension\""}
+{"ts":"2026-05-09T12:05:36.172Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T12:05:38.730Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension\""}
+{"ts":"2026-05-09T12:05:38.731Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":7,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T12:06:30.018Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T12:06:30.358Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":6,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T12:06:30.366Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension\""}
+{"ts":"2026-05-09T12:06:33.587Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T12:06:36.063Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":6,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T12:06:36.068Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension\""}
+{"ts":"2026-05-09T12:06:36.800Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T12:16:37.422Z","hook":"session-init","event":"SessionStart","tool":"","target":"","note":"clear","dur":831,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T12:17:38.939Z","hook":"usage-quota-cache-refresh","event":"UserPromptSubmit","tool":"","target":"","note":"runtime-override","dur":20,"status":"warn","exit":0,"error":""}
+{"ts":"2026-05-09T12:17:39.076Z","hook":"dev-rules-reminder","event":"UserPromptSubmit","tool":"","target":"","note":"context-injected","dur":167,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T12:17:45.241Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/vanntl-PC-Window11/.claude/skills\""}
+{"ts":"2026-05-09T12:17:45.256Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":9,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T12:17:45.869Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T12:17:52.669Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":8,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T12:17:52.679Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/.claude/skills\""}
+{"ts":"2026-05-09T12:17:53.250Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T12:17:58.328Z","hook":"privacy-block","event":"PreToolUse","tool":"Grep","target":"","note":"","dur":6,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T12:17:58.342Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/vanntl-PC-Window11/.claude/skills\""}
+{"ts":"2026-05-09T12:18:00.032Z","hook":"privacy-block","event":"PreToolUse","tool":"Grep","target":"","note":"","dur":55,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T12:18:00.290Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":71,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T12:18:00.382Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/.claude/skills\""}
+{"ts":"2026-05-09T12:18:00.495Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project\""}
+{"ts":"2026-05-09T12:18:02.334Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T12:18:23.426Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":4,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T12:18:23.434Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension\""}
+{"ts":"2026-05-09T12:18:23.962Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T12:18:24.557Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":6,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T12:18:24.563Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/vanntl-PC-Window11/.claude/skills/copywriting\""}
+{"ts":"2026-05-09T12:18:25.154Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T12:22:09.140Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":5,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T12:22:09.150Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/vanntl-PC-Window11/.claude/skills/skill-creator/scripts\""}
+{"ts":"2026-05-09T12:22:09.749Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T12:22:29.601Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":11,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T12:22:29.610Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/vanntl-PC-Window11/.claude/skills/skill-creator/scripts/init_skill.py\""}
+{"ts":"2026-05-09T12:22:34.229Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":9,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T12:22:34.235Z","hook":"scout-block","event":"PreToolUse","tool":"Bash","target":"","note":"allowed-command","dur":2,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T12:22:59.466Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":6,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T12:22:59.469Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/vanntl-PC-Window11/.claude/skills/chrome-extension-listing/scripts/example.py\""}
+{"ts":"2026-05-09T12:23:00.089Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"runtime-override","dur":15,"status":"warn","exit":0,"error":""}
+{"ts":"2026-05-09T12:23:41.694Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":6,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T12:23:41.698Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/vanntl-PC-Window11/.claude/skills/chrome-extension-listing/SKILL.md\""}
+{"ts":"2026-05-09T12:24:05.849Z","hook":"privacy-block","event":"PreToolUse","tool":"Write","target":"","note":"","dur":7,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T12:24:05.865Z","hook":"descriptive-name","event":"PreToolUse","tool":"Write","target":"","note":"","dur":2,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T12:24:05.851Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/vanntl-PC-Window11/.claude/skills/chrome-extension-listing/SKILL.md\""}
+{"ts":"2026-05-09T12:24:06.255Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Write","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T12:24:06.277Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Write","target":"","note":"non-plan-file","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T12:24:29.485Z","hook":"descriptive-name","event":"PreToolUse","tool":"Write","target":"","note":"","dur":2,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T12:24:29.518Z","hook":"privacy-block","event":"PreToolUse","tool":"Write","target":"","note":"","dur":7,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T12:24:29.524Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/vanntl-PC-Window11/.claude/skills/chrome-extension-listing/references/title-and-summary.md\""}
+{"ts":"2026-05-09T12:24:29.866Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Write","target":"","note":"non-plan-file","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T12:24:29.872Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Write","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T12:24:52.464Z","hook":"privacy-block","event":"PreToolUse","tool":"Write","target":"","note":"","dur":7,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T12:24:52.476Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/vanntl-PC-Window11/.claude/skills/chrome-extension-listing/references/detailed-description.md\""}
+{"ts":"2026-05-09T12:24:52.467Z","hook":"descriptive-name","event":"PreToolUse","tool":"Write","target":"","note":"","dur":2,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T12:24:52.838Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Write","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T12:24:52.838Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Write","target":"","note":"non-plan-file","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T12:25:20.272Z","hook":"descriptive-name","event":"PreToolUse","tool":"Write","target":"","note":"","dur":4,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T12:25:20.278Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/vanntl-PC-Window11/.claude/skills/chrome-extension-listing/references/permission-justifications.md\""}
+{"ts":"2026-05-09T12:25:20.300Z","hook":"privacy-block","event":"PreToolUse","tool":"Write","target":"","note":"","dur":5,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T12:25:20.642Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Write","target":"","note":"non-plan-file","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T12:25:20.651Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Write","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T12:25:41.601Z","hook":"descriptive-name","event":"PreToolUse","tool":"Write","target":"","note":"","dur":3,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T12:25:41.610Z","hook":"privacy-block","event":"PreToolUse","tool":"Write","target":"","note":"","dur":11,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T12:25:41.605Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/vanntl-PC-Window11/.claude/skills/chrome-extension-listing/references/promo-assets.md\""}
+{"ts":"2026-05-09T12:25:41.962Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Write","target":"","note":"non-plan-file","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T12:25:41.966Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Write","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T12:26:05.025Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/vanntl-PC-Window11/.claude/skills/chrome-extension-listing/references/review-pitfalls.md\""}
+{"ts":"2026-05-09T12:26:05.033Z","hook":"privacy-block","event":"PreToolUse","tool":"Write","target":"","note":"","dur":8,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T12:26:05.027Z","hook":"descriptive-name","event":"PreToolUse","tool":"Write","target":"","note":"","dur":3,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T12:26:05.375Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Write","target":"","note":"non-plan-file","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T12:26:05.378Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Write","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T12:26:21.797Z","hook":"descriptive-name","event":"PreToolUse","tool":"Write","target":"","note":"","dur":3,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T12:26:21.808Z","hook":"privacy-block","event":"PreToolUse","tool":"Write","target":"","note":"","dur":6,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T12:26:21.813Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/vanntl-PC-Window11/.claude/skills/chrome-extension-listing/assets/title-summary-template.md\""}
+{"ts":"2026-05-09T12:26:22.103Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Write","target":"","note":"non-plan-file","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T12:26:22.110Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Write","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T12:26:34.280Z","hook":"descriptive-name","event":"PreToolUse","tool":"Write","target":"","note":"","dur":3,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T12:26:34.279Z","hook":"privacy-block","event":"PreToolUse","tool":"Write","target":"","note":"","dur":9,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T12:26:34.292Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/vanntl-PC-Window11/.claude/skills/chrome-extension-listing/assets/detailed-description-template.md\""}
+{"ts":"2026-05-09T12:26:34.672Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Write","target":"","note":"non-plan-file","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T12:26:34.675Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Write","target":"","note":"throttled","dur":2,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T12:26:54.323Z","hook":"descriptive-name","event":"PreToolUse","tool":"Write","target":"","note":"","dur":4,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T12:26:54.335Z","hook":"privacy-block","event":"PreToolUse","tool":"Write","target":"","note":"","dur":10,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T12:26:54.339Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/vanntl-PC-Window11/.claude/skills/chrome-extension-listing/assets/permission-justification-template.md\""}
+{"ts":"2026-05-09T12:26:54.711Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Write","target":"","note":"non-plan-file","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T12:26:54.712Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Write","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T12:27:11.051Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/vanntl-PC-Window11/.claude/skills/chrome-extension-listing/assets/promo-assets-template.md\""}
+{"ts":"2026-05-09T12:27:11.050Z","hook":"privacy-block","event":"PreToolUse","tool":"Write","target":"","note":"","dur":11,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T12:27:11.053Z","hook":"descriptive-name","event":"PreToolUse","tool":"Write","target":"","note":"","dur":4,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T12:27:11.434Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Write","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T12:27:11.436Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Write","target":"","note":"non-plan-file","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T12:27:51.782Z","hook":"descriptive-name","event":"PreToolUse","tool":"Write","target":"","note":"","dur":3,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T12:27:51.793Z","hook":"privacy-block","event":"PreToolUse","tool":"Write","target":"","note":"","dur":7,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T12:27:51.800Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/vanntl-PC-Window11/.claude/skills/chrome-extension-listing/scripts/validate_listing.py\""}
+{"ts":"2026-05-09T12:27:52.196Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Write","target":"","note":"non-plan-file","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T12:27:52.203Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Write","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T12:28:09.175Z","hook":"descriptive-name","event":"PreToolUse","tool":"Write","target":"","note":"","dur":3,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T12:28:09.182Z","hook":"privacy-block","event":"PreToolUse","tool":"Write","target":"","note":"","dur":8,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T12:28:09.185Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/vanntl-PC-Window11/.claude/skills/chrome-extension-listing/scripts/test_validate_listing.py\""}
+{"ts":"2026-05-09T12:28:09.548Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Write","target":"","note":"non-plan-file","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T12:28:09.597Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Write","target":"","note":"runtime-override","dur":28,"status":"warn","exit":0,"error":""}
+{"ts":"2026-05-09T12:28:19.110Z","hook":"privacy-block","event":"PreToolUse","tool":"Write","target":"","note":"","dur":6,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T12:28:19.119Z","hook":"descriptive-name","event":"PreToolUse","tool":"Write","target":"","note":"","dur":3,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T12:28:19.134Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/vanntl-PC-Window11/.claude/skills/chrome-extension-listing/scripts/listing.schema.example.json\""}
+{"ts":"2026-05-09T12:28:19.495Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Write","target":"","note":"non-plan-file","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T12:28:19.504Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Write","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T12:28:20.656Z","hook":"descriptive-name","event":"PreToolUse","tool":"Write","target":"","note":"","dur":4,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T12:28:20.687Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/vanntl-PC-Window11/.claude/skills/chrome-extension-listing/scripts/requirements.txt\""}
+{"ts":"2026-05-09T12:28:20.679Z","hook":"privacy-block","event":"PreToolUse","tool":"Write","target":"","note":"","dur":13,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T12:28:21.047Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Write","target":"","note":"non-plan-file","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T12:28:21.056Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Write","target":"","note":"throttled","dur":2,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T13:12:01.103Z","hook":"usage-quota-cache-refresh","event":"UserPromptSubmit","tool":"","target":"","note":"runtime-override","dur":38,"status":"warn","exit":0,"error":""}
+{"ts":"2026-05-09T13:12:01.397Z","hook":"dev-rules-reminder","event":"UserPromptSubmit","tool":"","target":"","note":"context-injected","dur":296,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:12:13.051Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":15,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:12:13.130Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":16,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:12:13.324Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension/public\""}
+{"ts":"2026-05-09T13:12:13.324Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension\""}
+{"ts":"2026-05-09T13:12:14.307Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T13:12:15.088Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T13:12:18.457Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":9,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:12:18.466Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension/dist/manifest.json\""}
+{"ts":"2026-05-09T13:12:18.901Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension/src/manifest.ts\""}
+{"ts":"2026-05-09T13:12:18.929Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":30,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:12:19.247Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":9,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:12:19.250Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/README.md\""}
+{"ts":"2026-05-09T13:12:32.126Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":8,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:12:32.127Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/docs\""}
+{"ts":"2026-05-09T13:12:32.954Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T13:12:33.289Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/docs\""}
+{"ts":"2026-05-09T13:12:33.291Z","hook":"privacy-block","event":"PreToolUse","tool":"Grep","target":"","note":"","dur":9,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:12:40.202Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":8,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:12:40.214Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/docs/deployment-guide.md\""}
+{"ts":"2026-05-09T13:12:41.124Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":2,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T13:16:12.683Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":7,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:16:12.683Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension/docs\""}
+{"ts":"2026-05-09T13:16:13.597Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T13:17:28.478Z","hook":"privacy-block","event":"PreToolUse","tool":"Write","target":"","note":"","dur":10,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:17:28.485Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension/docs/store-listing.md\""}
+{"ts":"2026-05-09T13:17:28.479Z","hook":"descriptive-name","event":"PreToolUse","tool":"Write","target":"","note":"","dur":5,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:17:29.150Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Write","target":"","note":"non-plan-file","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T13:17:29.366Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Write","target":"","note":"runtime-override","dur":28,"status":"warn","exit":0,"error":""}
+{"ts":"2026-05-09T13:18:17.630Z","hook":"descriptive-name","event":"PreToolUse","tool":"Write","target":"","note":"","dur":3,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:18:17.657Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension/docs/store-listing.json\""}
+{"ts":"2026-05-09T13:18:17.647Z","hook":"privacy-block","event":"PreToolUse","tool":"Write","target":"","note":"","dur":10,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:18:18.078Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Write","target":"","note":"non-plan-file","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T13:18:18.078Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Write","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T13:27:00.760Z","hook":"session-init","event":"SessionStart","tool":"","target":"","note":"clear","dur":632,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:28:44.218Z","hook":"usage-quota-cache-refresh","event":"UserPromptSubmit","tool":"","target":"","note":"runtime-override","dur":28,"status":"warn","exit":0,"error":""}
+{"ts":"2026-05-09T13:28:44.489Z","hook":"dev-rules-reminder","event":"UserPromptSubmit","tool":"","target":"","note":"context-injected","dur":292,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:28:52.554Z","hook":"privacy-block","event":"PreToolUse","tool":"Grep","target":"","note":"","dur":13,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:28:52.560Z","hook":"scout-block","event":"PreToolUse","tool":"Grep","target":"","note":"","dur":10,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:28:53.959Z","hook":"privacy-block","event":"PreToolUse","tool":"Grep","target":"","note":"","dur":18,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:28:53.962Z","hook":"scout-block","event":"PreToolUse","tool":"Grep","target":"","note":"","dur":10,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:28:58.936Z","hook":"privacy-block","event":"PreToolUse","tool":"Grep","target":"","note":"","dur":13,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:28:58.948Z","hook":"scout-block","event":"PreToolUse","tool":"Grep","target":"","note":"","dur":7,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:29:08.588Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":8,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:29:08.607Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension/src/options/Options.tsx\""}
+{"ts":"2026-05-09T13:29:09.285Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":7,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:29:09.295Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension/src/options/components/about-section.tsx\""}
+{"ts":"2026-05-09T13:29:09.771Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":8,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:29:09.778Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension/src/shared/components/footer-credits.tsx\""}
+{"ts":"2026-05-09T13:29:14.229Z","hook":"privacy-block","event":"PreToolUse","tool":"Edit","target":"","note":"","dur":8,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:29:14.246Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension/src/options/Options.tsx\""}
+{"ts":"2026-05-09T13:29:14.748Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Edit","target":"","note":"non-plan-file","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T13:29:14.769Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Edit","target":"","note":"throttled","dur":2,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T13:29:16.455Z","hook":"privacy-block","event":"PreToolUse","tool":"Edit","target":"","note":"","dur":7,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:29:16.463Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension/src/options/components/about-section.tsx\""}
+{"ts":"2026-05-09T13:29:16.852Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Edit","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T13:29:16.852Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Edit","target":"","note":"non-plan-file","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T13:29:18.771Z","hook":"privacy-block","event":"PreToolUse","tool":"Edit","target":"","note":"","dur":7,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:29:18.772Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension/src/shared/components/footer-credits.tsx\""}
+{"ts":"2026-05-09T13:29:19.179Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Edit","target":"","note":"non-plan-file","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T13:29:19.181Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Edit","target":"","note":"throttled","dur":2,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T13:29:22.722Z","hook":"scout-block","event":"PreToolUse","tool":"Grep","target":"","note":"","dur":7,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:29:22.731Z","hook":"privacy-block","event":"PreToolUse","tool":"Grep","target":"","note":"","dur":9,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:30:29.163Z","hook":"dev-rules-reminder","event":"UserPromptSubmit","tool":"","target":"","note":"recently-injected","dur":11,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T13:30:29.191Z","hook":"usage-quota-cache-refresh","event":"UserPromptSubmit","tool":"","target":"","note":"runtime-override","dur":34,"status":"warn","exit":0,"error":""}
+{"ts":"2026-05-09T13:30:46.042Z","hook":"subagent-init","event":"SubagentStart","tool":"","target":"git-manager","note":"context-injected","dur":291,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:30:48.556Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":28,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:30:48.571Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension\""}
+{"ts":"2026-05-09T13:30:50.951Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension\""}
+{"ts":"2026-05-09T13:30:50.952Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":8,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:30:51.889Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":19,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T13:30:52.489Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":10,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:30:52.614Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project\""}
+{"ts":"2026-05-09T13:30:53.512Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T13:30:53.962Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":9,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:30:53.968Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension\""}
+{"ts":"2026-05-09T13:30:54.806Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":2,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T13:30:57.542Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":9,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:30:57.547Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension\""}
+{"ts":"2026-05-09T13:30:58.233Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T13:31:01.315Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":9,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:31:01.338Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension\""}
+{"ts":"2026-05-09T13:31:02.001Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":2,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T13:31:02.478Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":10,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:31:02.495Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension\""}
+{"ts":"2026-05-09T13:31:03.301Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T13:31:05.884Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":7,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:31:05.890Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension\""}
+{"ts":"2026-05-09T13:33:06.445Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":2,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T13:33:08.315Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":13,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:33:08.326Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension\""}
+{"ts":"2026-05-09T13:33:08.880Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T13:33:13.748Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":20,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:33:13.766Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension\""}
+{"ts":"2026-05-09T13:33:14.601Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T13:33:21.254Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":8,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:33:21.272Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project\""}
+{"ts":"2026-05-09T13:33:21.978Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T13:33:22.382Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":8,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:33:22.396Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project\""}
+{"ts":"2026-05-09T13:33:23.073Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T13:33:24.777Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":8,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:33:24.788Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project\""}
+{"ts":"2026-05-09T13:33:26.898Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":7,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:33:26.908Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project\""}
+{"ts":"2026-05-09T13:33:27.501Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T13:33:29.557Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":8,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:33:29.568Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension\""}
+{"ts":"2026-05-09T13:33:30.182Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T13:33:31.811Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project\""}
+{"ts":"2026-05-09T13:33:31.817Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":9,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:33:32.465Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T13:33:41.613Z","hook":"scout-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":7,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:33:41.614Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":8,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:33:42.721Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":2,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T13:35:21.752Z","hook":"usage-quota-cache-refresh","event":"UserPromptSubmit","tool":"","target":"","note":"runtime-override","dur":38,"status":"warn","exit":0,"error":""}
+{"ts":"2026-05-09T13:35:22.024Z","hook":"dev-rules-reminder","event":"UserPromptSubmit","tool":"","target":"","note":"context-injected","dur":211,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:35:31.596Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":8,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:35:31.605Z","hook":"scout-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":11,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:35:32.812Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T13:35:33.535Z","hook":"privacy-block","event":"PreToolUse","tool":"Grep","target":"","note":"","dur":33,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:35:33.536Z","hook":"scout-block","event":"PreToolUse","tool":"Grep","target":"","note":"","dur":7,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:35:33.593Z","hook":"privacy-block","event":"PreToolUse","tool":"Glob","target":"","note":"","dur":20,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:35:33.600Z","hook":"scout-block","event":"PreToolUse","tool":"Glob","target":"","note":"","dur":13,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:38:56.062Z","hook":"dev-rules-reminder","event":"UserPromptSubmit","tool":"","target":"","note":"recently-injected","dur":17,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T13:38:56.077Z","hook":"usage-quota-cache-refresh","event":"UserPromptSubmit","tool":"","target":"","note":"runtime-override","dur":30,"status":"warn","exit":0,"error":""}
+{"ts":"2026-05-09T13:39:13.494Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":18,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:39:13.538Z","hook":"scout-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":9,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:39:14.414Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":2,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T13:39:14.858Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":7,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:39:14.864Z","hook":"scout-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":9,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:39:18.610Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T13:39:19.102Z","hook":"scout-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":6,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:39:19.104Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":8,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:42:36.628Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T13:42:54.512Z","hook":"privacy-block","event":"PreToolUse","tool":"Write","target":"","note":"","dur":9,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:42:54.520Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/plans/260509-2035-add-changelog/plan.md\""}
+{"ts":"2026-05-09T13:42:54.527Z","hook":"descriptive-name","event":"PreToolUse","tool":"Write","target":"","note":"","dur":2,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:42:55.043Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Write","target":"","note":"throttled","dur":2,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T13:42:55.082Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Write","target":"","note":"non-plan-file","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T13:43:29.208Z","hook":"descriptive-name","event":"PreToolUse","tool":"Write","target":"","note":"","dur":4,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:43:29.230Z","hook":"privacy-block","event":"PreToolUse","tool":"Write","target":"","note":"","dur":10,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:43:29.235Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/plans/260509-2035-add-changelog/phase-01-source-of-truth-backfill.md\""}
+{"ts":"2026-05-09T13:43:29.643Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Write","target":"","note":"non-plan-file","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T13:43:29.645Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Write","target":"","note":"throttled","dur":2,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T13:44:06.838Z","hook":"descriptive-name","event":"PreToolUse","tool":"Write","target":"","note":"","dur":7,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:44:06.862Z","hook":"privacy-block","event":"PreToolUse","tool":"Write","target":"","note":"","dur":11,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:44:06.861Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/plans/260509-2035-add-changelog/phase-02-in-extension-about-panel.md\""}
+{"ts":"2026-05-09T13:44:07.365Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Write","target":"","note":"non-plan-file","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T13:44:07.398Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Write","target":"","note":"runtime-override","dur":31,"status":"warn","exit":0,"error":""}
+{"ts":"2026-05-09T13:44:33.266Z","hook":"descriptive-name","event":"PreToolUse","tool":"Write","target":"","note":"","dur":4,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:44:33.304Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/plans/260509-2035-add-changelog/phase-03-release-prep-store-sync.md\""}
+{"ts":"2026-05-09T13:44:33.317Z","hook":"privacy-block","event":"PreToolUse","tool":"Write","target":"","note":"","dur":14,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:44:33.777Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Write","target":"","note":"non-plan-file","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T13:44:33.779Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Write","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T13:44:39.828Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":9,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:44:39.843Z","hook":"scout-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":13,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:44:40.927Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T13:48:32.549Z","hook":"usage-quota-cache-refresh","event":"UserPromptSubmit","tool":"","target":"","note":"runtime-override","dur":46,"status":"warn","exit":0,"error":""}
+{"ts":"2026-05-09T13:48:32.829Z","hook":"dev-rules-reminder","event":"UserPromptSubmit","tool":"","target":"","note":"context-injected","dur":313,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:48:52.926Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":15,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:48:53.218Z","hook":"scout-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":46,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:48:54.641Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":2,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T13:48:57.692Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":28,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:48:57.875Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension/.github/workflows/release.yml\""}
+{"ts":"2026-05-09T13:48:58.328Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension/.github/workflows/test.yml\""}
+{"ts":"2026-05-09T13:48:58.345Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":18,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:51:34.329Z","hook":"dev-rules-reminder","event":"UserPromptSubmit","tool":"","target":"","note":"recently-injected","dur":20,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T13:51:34.354Z","hook":"usage-quota-cache-refresh","event":"UserPromptSubmit","tool":"","target":"","note":"runtime-override","dur":24,"status":"warn","exit":0,"error":""}
+{"ts":"2026-05-09T13:55:09.682Z","hook":"usage-quota-cache-refresh","event":"UserPromptSubmit","tool":"","target":"","note":"runtime-override","dur":32,"status":"warn","exit":0,"error":""}
+{"ts":"2026-05-09T13:55:09.984Z","hook":"dev-rules-reminder","event":"UserPromptSubmit","tool":"","target":"","note":"context-injected","dur":250,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:57:27.370Z","hook":"dev-rules-reminder","event":"UserPromptSubmit","tool":"","target":"","note":"recently-injected","dur":13,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T13:57:27.377Z","hook":"usage-quota-cache-refresh","event":"UserPromptSubmit","tool":"","target":"","note":"runtime-override","dur":23,"status":"warn","exit":0,"error":""}
+{"ts":"2026-05-09T13:59:23.171Z","hook":"usage-quota-cache-refresh","event":"UserPromptSubmit","tool":"","target":"","note":"runtime-override","dur":23,"status":"warn","exit":0,"error":""}
+{"ts":"2026-05-09T13:59:23.177Z","hook":"dev-rules-reminder","event":"UserPromptSubmit","tool":"","target":"","note":"recently-injected","dur":15,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T13:59:35.963Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":13,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:59:35.994Z","hook":"scout-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":17,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:59:37.012Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T13:59:53.471Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/plans/260509-2035-add-changelog/plan.md\""}
+{"ts":"2026-05-09T13:59:53.476Z","hook":"descriptive-name","event":"PreToolUse","tool":"Write","target":"","note":"","dur":5,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:59:53.503Z","hook":"privacy-block","event":"PreToolUse","tool":"Write","target":"","note":"","dur":9,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T13:59:54.102Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Write","target":"","note":"non-plan-file","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T13:59:54.111Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Write","target":"","note":"throttled","dur":2,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T14:00:55.020Z","hook":"privacy-block","event":"PreToolUse","tool":"Write","target":"","note":"","dur":17,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T14:00:55.066Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/plans/260509-2035-add-changelog/phase-01-wire-github-releases.md\""}
+{"ts":"2026-05-09T14:00:55.030Z","hook":"descriptive-name","event":"PreToolUse","tool":"Write","target":"","note":"","dur":5,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T14:00:55.674Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Write","target":"","note":"non-plan-file","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T14:00:55.686Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Write","target":"","note":"throttled","dur":2,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T14:04:06.573Z","hook":"usage-quota-cache-refresh","event":"UserPromptSubmit","tool":"","target":"","note":"runtime-override","dur":35,"status":"warn","exit":0,"error":""}
+{"ts":"2026-05-09T14:04:06.726Z","hook":"dev-rules-reminder","event":"UserPromptSubmit","tool":"","target":"","note":"context-injected","dur":179,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T14:04:30.315Z","hook":"subagent-init","event":"SubagentStart","tool":"","target":"git-manager","note":"context-injected","dur":175,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T14:04:32.855Z","hook":"scout-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":8,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T14:04:32.865Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":15,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T14:04:33.080Z","hook":"scout-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":11,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T14:04:33.155Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":11,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T14:04:33.315Z","hook":"scout-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":8,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T14:04:33.351Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":11,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T14:04:34.047Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T14:04:34.093Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":2,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T14:04:34.176Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T14:04:36.351Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":9,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T14:04:36.360Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/plans/260509-2035-add-changelog\""}
+{"ts":"2026-05-09T14:04:37.262Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T14:04:40.696Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":9,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T14:04:40.703Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/plans/260509-2035-add-changelog\""}
+{"ts":"2026-05-09T14:04:41.436Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T14:04:44.035Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":14,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T14:04:44.047Z","hook":"scout-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":11,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T14:04:44.676Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":2,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T14:04:46.875Z","hook":"scout-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":8,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T14:04:46.885Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":10,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T14:04:47.277Z","hook":"scout-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":7,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T14:04:47.280Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":8,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T14:04:47.772Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T14:04:48.129Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T14:04:50.800Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":28,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T14:04:50.809Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/plans/260509-2035-add-changelog/plan.md\""}
+{"ts":"2026-05-09T14:04:51.055Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/plans/260509-2035-add-changelog/phase-01-wire-github-releases.md\""}
+{"ts":"2026-05-09T14:04:51.072Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":8,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T14:04:55.589Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/plans/260509-2035-add-changelog\""}
+{"ts":"2026-05-09T14:04:55.601Z","hook":"privacy-block","event":"PreToolUse","tool":"Grep","target":"","note":"","dur":11,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T14:04:59.047Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":9,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T14:04:59.056Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project\""}
+{"ts":"2026-05-09T14:05:01.555Z","hook":"privacy-block","event":"PreToolUse","tool":"Grep","target":"","note":"","dur":13,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T14:05:01.573Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project\""}
+{"ts":"2026-05-09T14:05:03.795Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":12,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T14:05:03.822Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/.gitignore\""}
+{"ts":"2026-05-09T14:05:07.479Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project\""}
+{"ts":"2026-05-09T14:05:07.482Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":8,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T14:05:08.354Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T14:05:11.778Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":8,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T14:05:11.793Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project\""}
+{"ts":"2026-05-09T14:05:12.659Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T14:05:19.022Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project\""}
+{"ts":"2026-05-09T14:05:21.267Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":6,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T14:05:21.277Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project\""}
+{"ts":"2026-05-09T14:05:22.032Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":2,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T14:06:09.333Z","hook":"dev-rules-reminder","event":"UserPromptSubmit","tool":"","target":"","note":"recently-injected","dur":38,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T14:06:09.408Z","hook":"usage-quota-cache-refresh","event":"UserPromptSubmit","tool":"","target":"","note":"runtime-override","dur":35,"status":"warn","exit":0,"error":""}
+{"ts":"2026-05-09T14:06:43.813Z","hook":"subagent-init","event":"SubagentStart","tool":"","target":"git-manager","note":"context-injected","dur":280,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T14:06:45.904Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension\""}
+{"ts":"2026-05-09T14:06:45.905Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":9,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T14:06:46.893Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T14:06:49.029Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":22,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T14:06:49.035Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension\""}
+{"ts":"2026-05-09T14:06:55.158Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":2,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T14:07:03.492Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":25,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T14:07:03.497Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension\""}
+{"ts":"2026-05-09T14:07:04.161Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T14:07:12.367Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":9,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T14:07:12.380Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension\""}
+{"ts":"2026-05-09T14:07:13.976Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":2,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T14:07:20.465Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension\""}
+{"ts":"2026-05-09T14:07:20.471Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":10,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T14:07:26.046Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":8,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T14:07:26.059Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension\""}
+{"ts":"2026-05-09T14:07:27.636Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T14:07:31.638Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":9,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T14:07:31.646Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension\""}
+{"ts":"2026-05-09T14:07:35.388Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":2,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T14:07:37.379Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":14,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T14:07:37.389Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension\""}
+{"ts":"2026-05-09T14:07:39.171Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":2,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T14:07:42.941Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension\""}
+{"ts":"2026-05-09T14:07:42.943Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":14,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T14:07:43.931Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T14:09:22.463Z","hook":"usage-quota-cache-refresh","event":"UserPromptSubmit","tool":"","target":"","note":"runtime-override","dur":36,"status":"warn","exit":0,"error":""}
+{"ts":"2026-05-09T14:09:22.605Z","hook":"dev-rules-reminder","event":"UserPromptSubmit","tool":"","target":"","note":"context-injected","dur":171,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T14:09:37.020Z","hook":"usage-quota-cache-refresh","event":"UserPromptSubmit","tool":"","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T14:09:37.026Z","hook":"dev-rules-reminder","event":"UserPromptSubmit","tool":"","target":"","note":"recently-injected","dur":17,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T14:10:06.555Z","hook":"usage-quota-cache-refresh","event":"UserPromptSubmit","tool":"","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T14:10:06.579Z","hook":"dev-rules-reminder","event":"UserPromptSubmit","tool":"","target":"","note":"recently-injected","dur":12,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T14:11:26.284Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":10,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T14:11:26.301Z","hook":"scout-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":12,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T14:11:27.638Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T14:11:53.673Z","hook":"subagent-init","event":"SubagentStart","tool":"","target":"git-manager","note":"context-injected","dur":187,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T14:11:56.112Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension\""}
+{"ts":"2026-05-09T14:11:56.114Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":10,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T14:11:56.830Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T14:11:57.223Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":10,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T14:11:57.238Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension\""}
+{"ts":"2026-05-09T14:11:57.888Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T14:11:58.315Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":9,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T14:11:58.319Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension\""}
+{"ts":"2026-05-09T14:12:00.009Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":2,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T14:12:03.213Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":10,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T14:12:03.225Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension\""}
+{"ts":"2026-05-09T14:12:04.405Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T14:12:04.824Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":10,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T14:12:04.835Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension\""}
+{"ts":"2026-05-09T14:12:07.804Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T14:12:08.327Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension\""}
+{"ts":"2026-05-09T14:12:08.344Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":11,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T14:12:09.233Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":2,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T14:12:11.410Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":9,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T14:12:11.421Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension\""}
+{"ts":"2026-05-09T14:12:12.149Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":2,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T14:12:12.558Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension\""}
+{"ts":"2026-05-09T14:12:12.557Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":10,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T14:12:13.420Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T14:12:13.802Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":9,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T14:12:13.811Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension\""}
+{"ts":"2026-05-09T14:12:14.505Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T14:12:17.169Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":13,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T14:12:17.177Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension\""}
+{"ts":"2026-05-09T14:13:21.256Z","hook":"usage-quota-cache-refresh","event":"UserPromptSubmit","tool":"","target":"","note":"runtime-override","dur":27,"status":"warn","exit":0,"error":""}
+{"ts":"2026-05-09T14:13:21.275Z","hook":"dev-rules-reminder","event":"UserPromptSubmit","tool":"","target":"","note":"recently-injected","dur":19,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T14:13:49.526Z","hook":"usage-quota-cache-refresh","event":"UserPromptSubmit","tool":"","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T14:13:49.542Z","hook":"dev-rules-reminder","event":"UserPromptSubmit","tool":"","target":"","note":"recently-injected","dur":18,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T14:14:00.379Z","hook":"subagent-init","event":"SubagentStart","tool":"","target":"git-manager","note":"context-injected","dur":205,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T14:14:03.408Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":8,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T14:14:03.429Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension\""}
+{"ts":"2026-05-09T14:14:04.038Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T14:14:04.438Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":6,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T14:14:04.459Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension\""}
+{"ts":"2026-05-09T14:14:05.063Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T14:14:07.695Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":11,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T14:14:07.708Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension\""}
+{"ts":"2026-05-09T14:14:08.358Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T14:14:08.771Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":8,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T14:14:10.229Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T14:14:13.289Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":8,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T14:14:13.292Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension\""}
+{"ts":"2026-05-09T14:14:26.747Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":2,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T14:14:27.118Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":6,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T14:14:27.126Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension\""}
+{"ts":"2026-05-09T14:14:31.264Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":2,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T14:14:38.003Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":9,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T14:14:38.023Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension\""}
+{"ts":"2026-05-09T14:14:41.540Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-09T14:14:43.648Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":8,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-09T14:14:43.653Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/vocabulary-extension\""}
+{"ts":"2026-05-09T14:14:44.500Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-16T16:22:02.919Z","hook":"usage-quota-cache-refresh","event":"SessionStart","tool":"","target":"","note":"runtime-override","dur":3218,"status":"warn","exit":0,"error":""}
+{"ts":"2026-05-16T16:22:03.806Z","hook":"session-init","event":"SessionStart","tool":"","target":"","note":"startup","dur":3783,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-16T16:23:11.427Z","hook":"usage-quota-cache-refresh","event":"UserPromptSubmit","tool":"","target":"","note":"runtime-override","dur":29,"status":"warn","exit":0,"error":""}
+{"ts":"2026-05-16T16:23:11.755Z","hook":"dev-rules-reminder","event":"UserPromptSubmit","tool":"","target":"","note":"context-injected","dur":238,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-16T16:23:17.599Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":9,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-16T16:23:17.827Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/.claude\""}
+{"ts":"2026-05-16T16:23:21.087Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-16T16:23:24.854Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":10,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-16T16:23:24.863Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/.claude/.gitignore\""}
+{"ts":"2026-05-16T16:23:25.714Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-16T16:23:29.301Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project\""}
+{"ts":"2026-05-16T16:23:29.311Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":15,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-16T16:23:30.333Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-16T16:25:40.447Z","hook":"dev-rules-reminder","event":"UserPromptSubmit","tool":"","target":"","note":"recently-injected","dur":8,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-16T16:25:40.465Z","hook":"usage-quota-cache-refresh","event":"UserPromptSubmit","tool":"","target":"","note":"runtime-override","dur":22,"status":"warn","exit":0,"error":""}
+{"ts":"2026-05-16T16:25:50.748Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":9,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-16T16:25:50.775Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/.claude\""}
+{"ts":"2026-05-16T16:32:16.611Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"runtime-override","dur":16,"status":"warn","exit":0,"error":""}
+{"ts":"2026-05-16T16:32:21.249Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":13,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-16T16:32:21.309Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project\""}
+{"ts":"2026-05-16T16:32:22.713Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":18,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-16T16:32:26.814Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/.gitignore\""}
+{"ts":"2026-05-16T16:32:26.894Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":184,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-16T16:32:47.644Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project/.gitignore\""}
+{"ts":"2026-05-16T16:32:47.713Z","hook":"privacy-block","event":"PreToolUse","tool":"Edit","target":"","note":"","dur":9,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-16T16:32:48.813Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Edit","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-16T16:32:48.869Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Edit","target":"","note":"non-plan-file","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-16T16:32:56.843Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":".env","note":"bash-sensitive-file","dur":6,"status":"warn","exit":0,"error":""}
+{"ts":"2026-05-16T16:32:56.851Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project\""}
+{"ts":"2026-05-16T16:32:58.466Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-16T16:33:05.043Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":14,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-16T16:33:05.050Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project\""}
+{"ts":"2026-05-16T16:34:53.677Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":2,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-16T16:36:13.635Z","hook":"usage-quota-cache-refresh","event":"UserPromptSubmit","tool":"","target":"","note":"runtime-override","dur":22,"status":"warn","exit":0,"error":""}
+{"ts":"2026-05-16T16:36:13.896Z","hook":"dev-rules-reminder","event":"UserPromptSubmit","tool":"","target":"","note":"context-injected","dur":279,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-16T16:36:45.011Z","hook":"usage-quota-cache-refresh","event":"UserPromptSubmit","tool":"","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-16T16:36:45.046Z","hook":"dev-rules-reminder","event":"UserPromptSubmit","tool":"","target":"","note":"recently-injected","dur":52,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-16T16:36:55.741Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":9,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-16T16:36:55.770Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"D:/vanntl/vocabulary-project\""}
+{"ts":"2026-05-16T16:36:57.056Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-16T16:37:22.589Z","hook":"subagent-init","event":"SubagentStart","tool":"","target":"git-manager","note":"context-injected","dur":261,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-16T16:37:26.924Z","hook":"scout-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":29,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-16T16:37:26.947Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":36,"status":"ok","exit":0,"error":""}
