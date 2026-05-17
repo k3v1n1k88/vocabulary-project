@@ -58,10 +58,8 @@ GoogleService-Info.plist
 
 repomix-output.xml
 .serena/cache
-plans/**/*
 !plans/templates/*
 screenshots/*
-docs/screenshots/*
 logs.txt
 test-ck
 __pycache__
