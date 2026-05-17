@@ -27,7 +27,7 @@ Static model list update — KISS. No architectural changes. Single file primary
 
 | # | Phase | Status | Priority | Effort |
 |---|-------|--------|----------|--------|
-| 1 | [Update model lists + defensive fallback](./phase-01-update-model-lists.md) | pending | P1 | 1h |
+| 1 | [Update model lists](./phase-01-update-model-lists.md) | pending | P1 | 30m |
 | 2 | [Verify and update tests](./phase-02-verify-tests.md) | pending | P2 | 30m |
 
 ## Key Files
@@ -39,4 +39,27 @@ Static model list update — KISS. No architectural changes. Single file primary
 
 - [ ] No "model not available" errors for any of the 3 providers
 - [ ] All existing translation tests pass
-- [ ] Users with stale stored model IDs fall back to new defaults gracefully
+- [ ] TypeScript compiles without errors
+
+## Validation Log
+
+### Session 1 — 2026-05-17
+**Trigger:** Automated bootstrap (non-interactive)
+**Questions asked:** 0 applied, 3 surfaced as open questions
+
+#### Confirmed Decisions
+
+1. **[Architecture]** `resolveModel` defensive fallback: NOT needed — `translation-service.ts` always reads `config.defaultModel` directly and never reads `settings.llmModel` from storage. Options UI handles stale values with `|| currentProvider.defaultModel` pattern. No service-layer changes required.
+
+#### Verification Results
+- **Tier:** Light (2 phases)
+- **Claims checked:** 8
+- **Verified:** 7 | **Failed:** 1 | **Unverified:** 0
+
+#### Failures
+1. [Fact Checker] Plan assumed `resolveModel` fallback required for stale stored model IDs — FAILED. `translation-service.ts` ignores `settings.llmModel`; always uses `config.defaultModel`. Fallback step removed from Phase 1.
+
+#### Action Items
+- [x] Remove `resolveModel` step from Phase 1 (applied)
+- [x] Reduce Phase 1 effort estimate: 1h → 30m (applied)
+- [ ] Open question Q3 — verify `grok-4.3` model ID against xAI API docs before implementation
