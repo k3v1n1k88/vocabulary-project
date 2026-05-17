@@ -69,6 +69,10 @@ describe('getSelectedModel', () => {
 })
 ```
 
+### 2b. Chrome mock availability
+
+`settings-storage-access.test.ts` calls `chrome.storage.sync.set/get` directly and passes — confirming vitest-chrome is globally configured. `getSelectedModel` tests can call `patchSettings({ llmModel: 'gpt-4o' })` to seed state, then call `getSelectedModel('openai')` and assert the result. No additional mock setup needed.
+
 ### 3. Provider config validation tests
 
 ```ts

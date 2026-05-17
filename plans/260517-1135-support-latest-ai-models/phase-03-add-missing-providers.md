@@ -128,9 +128,9 @@ export function buildProviderRequest(
 
 No other changes needed — the `else` branch already handles all OpenAI-compatible providers.
 
-### 4. Add storage key mappings — `translation-settings.ts`
+### 4. Storage key mappings — `translation-settings.ts`
 
-Verify `getApiKey` uses `config.apiKeyStorageKey` dynamically (likely already does via `getProviderConfig`). If it's a hard-coded switch, extend it to cover the 3 new keys. Check current implementation before editing.
+No changes needed. `getApiKey` already resolves the key dynamically via `getProviderConfig(provider).apiKeyStorageKey` (verified in `translation-settings.ts:27`). The 3 new provider configs include their `apiKeyStorageKey` fields; the function handles them automatically.
 
 ### 5. Verify compilation
 

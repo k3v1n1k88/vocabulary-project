@@ -50,11 +50,13 @@ No new storage helpers needed — `llmModel` is already part of `SettingsData`.
 
 ### 1. Add `getSelectedModel` to `translation-settings.ts`
 
+`llmModel` is stored inside the Zustand JSON blob at `settings-storage → state.settings.llmModel`, NOT as a top-level `chrome.storage.sync` key. Use `getSettings()` — the same helper used by all other translation settings helpers:
+
 ```ts
 export async function getSelectedModel(provider: LLMProvider): Promise<string> {
   const config = getProviderConfig(provider)
-  const result = await chrome.storage.sync.get('llmModel')
-  return (result.llmModel as string) || config.defaultModel
+  const settings = await getSettings<{ llmModel?: string }>()
+  return settings?.llmModel || config.defaultModel
 }
 ```
 
